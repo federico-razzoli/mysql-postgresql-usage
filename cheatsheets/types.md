@@ -36,3 +36,7 @@
         <td>8</td>
     </tr>
 </table>
+
+Modifiers only available in MySQL:
+* UNSIGNED
+* ZEROFILL
