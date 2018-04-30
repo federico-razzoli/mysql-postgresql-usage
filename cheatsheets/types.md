@@ -78,3 +78,38 @@ Modifiers only available in MySQL:
 
 Modifiers only available in MySQL:
 * UNSIGNED
+
+# Serial Types
+
+<table>
+    <tr>
+        <th>MySQL</th>
+        <th>PostgreSQL</th>
+        <th>1</th>
+    </tr>
+    <tr>
+        <th>TINYINT AUTO_INCREMENT</th>
+        <th>/</th>
+        <th>Size (bytes)</th>
+    </tr>
+    <tr>
+        <th>SMALLINT AUTO_INCREMENT</th>
+        <th>SMALLSERIAL</th>
+        <th>2</th>
+    </tr>
+    <tr>
+        <th>MEDIUMINT AUTO_INCREMENT</th>
+        <th>/</th>
+        <th>3</th>
+    </tr>
+    <tr>
+        <th>INT AUTO_INCREMENT</th>
+        <th>SERIAL</th>
+        <th>4</th>
+    </tr>
+    <tr>
+        <th>BIGINT AUTO_INCREMENT</th>
+        <th>BIGSERIAL</th>
+        <th>8</th>
+    </tr>
+</table>
