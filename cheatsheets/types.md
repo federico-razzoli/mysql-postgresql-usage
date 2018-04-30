@@ -186,3 +186,53 @@ SELECT oid FROM t;
 Modifiers only available in MySQL:
 * CHARACTER SET
 * COLLATION
+
+### Binary Types
+
+<table>
+    <tr>
+        <th>MySQL</th>
+        <th>Size in MySQL</th>
+        <th>PostgreSQL</th>
+        <th>Size in PostgreSQL</th>
+    </tr>
+    <tr>
+        <td>BIT</td>
+        <td>Length specified at creation time; max: 64</td>
+        <td>BIT</td>
+        <td>Length specified at creation time; no limit; multiples of 8</td>
+    </tr>
+    <tr>
+        <td>
+            BINARY<br>
+            VARBINARY
+        </td>
+        <td>
+            See CHAR and VARCHAR
+        </td>
+        <td> </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td>
+            TINYBLOB<br>
+            BLOB<br>
+            MEDIUMBLOB<br>
+            LONGBLOB
+        </td>
+        <td>
+            255B<br>
+            64K<br>
+            16M<br>
+            4G
+        </td>
+        <td>
+            BYTEA<br>
+            BLOB
+        </td>
+        <td>
+            1G<br>
+            4T
+        </td>
+    </tr>
+</table>
