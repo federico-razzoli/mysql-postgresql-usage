@@ -141,3 +141,48 @@ SET default_with_oids = 1;
 
 SELECT oid FROM t;
 ```
+
+## String Types
+
+### Character Types
+
+<table>
+    <tr>
+        <th>MySQL</th>
+        <th>Size in MySQL (characters)</th>
+        <th>PostgreSQL</th>
+        <th>Size in PostgreSQL (characters)</th>
+    </tr>
+    <tr>
+        <td>CHAR</td>
+        <td>Length specified at creation time; max: 65,535 or max row size</td>
+        <td>CHAR / CHARACTER</td>
+        <td>Length specified at creation time; no limit</td>
+    </tr>
+    <tr>
+        <td>VARCHAR</td>
+        <td>Length specified at creation time; max: 65,535 or max row size</td>
+        <td>VARCHAR / CHARACTER VARYING</td>
+        <td>Length specified at creation time; no limit</td>
+    </tr>
+    <tr>
+        <td>
+            TINYTEXT<br>
+            TEXT<br>
+            MEDIUMTEXT<br>
+            LONGTEXT
+        </td>
+        <td>
+            255B<br>
+            64K<br>
+            16M<br>
+            4G
+        </td>
+        <td>TEXT</td>
+        <td>No limit</td>
+    </tr>
+</table>
+
+Modifiers only available in MySQL:
+* CHARACTER SET
+* COLLATION
