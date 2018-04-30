@@ -1,2 +1,3 @@
 # mysql-postgresql-usage
-Collection of cheatsheets and snippets for MySQL and PostgreSQL. Their purpose is helping people who only know one of these systems
+Collection of cheatsheets and snippets for MySQL and PostgreSQL.
+This project serves as a reference for people who is only familiar with one of these systems.
