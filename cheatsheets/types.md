@@ -129,3 +129,13 @@ CREATE TABLE tablename (
 );
 ALTER SEQUENCE tablename_colname_seq OWNED BY tablename.colname;
 ```
+
+PostgreSQL *obsolete* alternative:
+
+```
+CREATE TABLE t (...) WITH OIDS;
+-- or omit WITH OIDS but first run:
+SET default_with_oids = 1;
+
+SELECT oid FROM t;
+```
