@@ -71,8 +71,14 @@ Modifiers only available in MySQL:
     <tr>
         <td>DECIMAL / NUMERIC</td>
         <td>?</td>
-        <td>DECIMAL / NUMERIC</td>
-        <td>integer part: 131072; decimal part: 16383</td>
+        <td>
+            DECIMAL / NUMERIC<br>
+            MONEY
+        </td>
+        <td>
+            integer part: 131072; decimal part: 16383<br>
+            -92233720368547758.08 to +92233720368547758.07
+        </td>
     </tr>
 </table>
 
