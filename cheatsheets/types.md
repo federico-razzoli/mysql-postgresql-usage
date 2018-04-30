@@ -2,7 +2,9 @@
 
 **Work In Progress**
 
-# Integer Types
+## Numeric Types
+
+### Integer Types
 
 <table>
     <tr>
@@ -41,7 +43,7 @@ Modifiers only available in MySQL:
 * UNSIGNED
 * ZEROFILL
 
-# Real Types
+### Real Types
 
 <table>
     <tr>
@@ -85,7 +87,7 @@ Modifiers only available in MySQL:
 Modifiers only available in MySQL:
 * UNSIGNED
 
-# Serial Types
+### Serial Types
 
 <table>
     <tr>
