@@ -113,3 +113,13 @@ Modifiers only available in MySQL:
         <th>8</th>
     </tr>
 </table>
+
+PostgreSQL alternative:
+
+```
+CREATE SEQUENCE tablename_colname_seq;
+CREATE TABLE tablename (
+    colname integer NOT NULL DEFAULT nextval('tablename_colname_seq')
+);
+ALTER SEQUENCE tablename_colname_seq OWNED BY tablename.colname;
+```
