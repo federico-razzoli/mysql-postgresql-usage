@@ -236,3 +236,52 @@ Modifiers only available in MySQL:
         </td>
     </tr>
 </table>
+
+## Other
+
+### Truth values
+
+MySQL has the following aliases:
+
+<table>
+    <tr>
+        <th>Alias</th>
+        <th>Maps to</th>
+    </tr>
+    <tr>
+        <td>BOOL / BOOLEAN</td>
+        <td>TINYINT UNSIGNED</td>
+    </tr>
+    <tr>
+        <td>TRUE</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>FALSE</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>
+            IS TRUE<br>
+            IS NOT TRUE
+        </td>
+        <td>
+            = 1<br>
+            != 1
+        </td>
+    </tr>
+    <tr>
+        <td>
+            IS FALSE<br>
+            IS NOT FALSE
+        </td>
+        <td>
+            = 0, = ''<br>
+            != 0, != ''
+        </td>
+    </tr>
+    <tr>
+        <td>IS [NOT] UNKNOWN</td>
+        <td>IS [NOT] NULL</td>
+    </tr>
+</table>
