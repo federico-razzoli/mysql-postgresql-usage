@@ -1,6 +1,8 @@
 # Datatypes
 
-**Work In Progress**
+**!! Work In Progress !!**
+
+This sheet is unfinished, some types are missing!
 
 ## Numeric Types
 
