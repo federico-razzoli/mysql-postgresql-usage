@@ -5,6 +5,8 @@
 Collection of cheatsheets and snippets for MySQL and PostgreSQL.
 This project serves as a reference for people who is only familiar with one of these systems.
 
+This file contains generic information. For more specific contents, browse the subdirectory.
+
 ## Glossary
 
 <table>
