@@ -54,6 +54,10 @@ Use it as a hint about what to study, don't try to use MySQL concepts in Postgre
         </td>
     </tr>
     <tr>
+        <td>Doublewrite Buffer</td>
+        <td>Full Page Writes</td>
+    </tr>
+    <tr>
         <td>Row Based Replication (RBR)</td>
         <td>Streaming Replication or Logical Repliaction</td>
     </tr>
@@ -64,6 +68,15 @@ Use it as a hint about what to study, don't try to use MySQL concepts in Postgre
     <tr>
         <td>/</td>
         <td>Database</td>
+    </tr>
+    <tr>
+        <td>
+            Tablespace (InnoDB)<br>
+            Data File (MyISAM)
+        </td>
+        <td>
+            Heap File
+        </td>
     </tr>
 </table>
 
