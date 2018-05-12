@@ -78,6 +78,15 @@ Use it as a hint about what to study, don't try to use MySQL concepts in Postgre
             Heap File
         </td>
     </tr>
+    <tr>
+        <td>
+            Buffer Pool (InnoDB)<br>
+            Key Buffer (MyISAM)
+        </td>
+        <td>
+            Shared Buffers / NBuffers
+        </td>
+    </tr>
 </table>
 
 # Maintainer
