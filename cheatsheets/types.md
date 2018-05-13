@@ -95,32 +95,32 @@ Modifiers only available in MySQL:
     <tr>
         <th>MySQL</th>
         <th>PostgreSQL</th>
-        <th>1</th>
-    </tr>
-    <tr>
-        <th>TINYINT AUTO_INCREMENT</th>
-        <th>/</th>
         <th>Size (bytes)</th>
     </tr>
     <tr>
-        <th>SMALLINT AUTO_INCREMENT</th>
-        <th>SMALLSERIAL</th>
-        <th>2</th>
+        <td>TINYINT AUTO_INCREMENT</td>
+        <td>/</td>
+        <td>1</td>
     </tr>
     <tr>
-        <th>MEDIUMINT AUTO_INCREMENT</th>
-        <th>/</th>
-        <th>3</th>
+        <td>SMALLINT AUTO_INCREMENT</td>
+        <td>SMALLSERIAL</td>
+        <td>2</td>
     </tr>
     <tr>
-        <th>INT AUTO_INCREMENT</th>
-        <th>SERIAL</th>
-        <th>4</th>
+        <td>MEDIUMINT AUTO_INCREMENT</td>
+        <td>/</td>
+        <td>3</td>
     </tr>
     <tr>
-        <th>BIGINT AUTO_INCREMENT</th>
-        <th>BIGSERIAL</th>
-        <th>8</th>
+        <td>INT AUTO_INCREMENT</td>
+        <td>SERIAL</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>BIGINT AUTO_INCREMENT</td>
+        <td>BIGSERIAL</td>
+        <td>8</td>
     </tr>
 </table>
 
