@@ -256,6 +256,22 @@ Modifiers only available in MySQL:
     </tr>
 </table>
 
+Note the difference in ENUM types. MySQL:
+```
+CREATE TYPE mood AS ;
+CREATE TABLE my_mood (
+    current_mood ENUM ('sad', 'ok', 'happy')
+);
+```
+
+PostgreSQL:
+```
+CREATE TYPE mood AS ENUM ('sad', 'ok', 'happy');
+CREATE TABLE my_mood (
+    current_mood mood
+);
+```
+
 ## Other
 
 ### Truth values
