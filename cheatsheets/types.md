@@ -239,6 +239,39 @@ Modifiers only available in MySQL:
     </tr>
 </table>
 
+## Fixed multi-value types
+
+<table>
+    <tr>
+        <th>MySQL</th>
+        <th>PostgreSQL</th>
+    </tr>
+    <tr>
+        <td>ENUM</td>
+        <td>ENUM</td>
+    </tr>
+    <tr>
+        <td>SET</td>
+        <td>/</td>
+    </tr>
+</table>
+
+Note the difference in ENUM types. MySQL:
+```
+CREATE TYPE mood AS ;
+CREATE TABLE my_mood (
+    current_mood ENUM ('sad', 'ok', 'happy')
+);
+```
+
+PostgreSQL:
+```
+CREATE TYPE mood AS ENUM ('sad', 'ok', 'happy');
+CREATE TABLE my_mood (
+    current_mood mood
+);
+```
+
 ## Other
 
 ### Truth values
