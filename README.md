@@ -86,7 +86,7 @@ Use it as a hint about what to study, don't try to use MySQL concepts in Postgre
             Key Buffer (MyISAM)
         </td>
         <td>
-            Shared Buffers / NBuffers
+            Shared Buffers
         </td>
     </tr>
 </table>
