@@ -239,6 +239,23 @@ Modifiers only available in MySQL:
     </tr>
 </table>
 
+## Fixed multi-value types
+
+<table>
+    <tr>
+        <th>MySQL</th>
+        <th>PostgreSQL</th>
+    </tr>
+    <tr>
+        <td>ENUM</td>
+        <td>ENUM</td>
+    </tr>
+    <tr>
+        <td>SET</td>
+        <td>/</td>
+    </tr>
+</table>
+
 ## Other
 
 ### Truth values
