@@ -81,12 +81,20 @@ Use it as a hint about what to study, don't try to use MySQL concepts in Postgre
         </td>
     </tr>
     <tr>
+        <td>Client</td>
+        <td>Frontend, Client</td>
+    </tr>
+    <tr>
+        <td>Connection, User Thread</td>
+        <td>Backend</td>
+    </tr>
+    <tr>
         <td>
             Buffer Pool (InnoDB)<br>
             Key Buffer (MyISAM)
         </td>
         <td>
-            Shared Buffers / NBuffers
+            Shared Buffers
         </td>
     </tr>
 </table>
